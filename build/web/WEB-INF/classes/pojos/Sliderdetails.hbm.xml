@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 27, 2017 7:58:59 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="pojos.Sliderdetails" table="sliderdetails" catalog="ajdesfinal">
+        <id name="idSliderDetails" type="java.lang.Integer">
+            <column name="idSliderDetails" />
+            <generator class="identity" />
+        </id>
+        <property name="sliderImage1" type="string">
+            <column name="SliderImage1" />
+        </property>
+        <property name="sliderImage2" type="string">
+            <column name="SliderImage2" />
+        </property>
+        <property name="sliderImage3" type="string">
+            <column name="SliderImage3" />
+        </property>
+        <property name="sliderImage4" type="string">
+            <column name="SliderImage4" />
+        </property>
+        <property name="sliderHeader1" type="string">
+            <column name="SliderHeader1" length="45" />
+        </property>
+        <property name="sliderHeader2" type="string">
+            <column name="SliderHeader2" length="45" />
+        </property>
+        <property name="sliderHeader3" type="string">
+            <column name="SliderHeader3" length="45" />
+        </property>
+        <property name="sliderHeader4" type="string">
+            <column name="SliderHeader4" length="45" />
+        </property>
+        <property name="sliderText1" type="string">
+            <column name="SliderText1" length="100" />
+        </property>
+        <property name="sliderText2" type="string">
+            <column name="SliderText2" length="100" />
+        </property>
+        <property name="sliderText3" type="string">
+            <column name="SliderText3" length="100" />
+        </property>
+        <property name="sliderText4" type="string">
+            <column name="SliderText4" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>
